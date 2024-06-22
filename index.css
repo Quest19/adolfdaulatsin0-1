@@ -1,0 +1,80 @@
+.content {
+  max-width: 1440px;
+  background-color: #050000;
+}
+
+.content__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.content__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.content__button-box {
+  margin-bottom: 20px;
+}
+
+.content__button {
+  min-width: 101px;
+  height: 32px;
+  border-radius: 40px;
+  border: none;
+  margin-right: 10px;
+  background-color: #FFFFFF;
+}
+
+.content__form {
+  margin: 24px;
+}
+
+.content__input-form {
+  display: flex;
+  max-width: 954px;
+}
+
+.content__input-box {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content__input {
+  height: 19px;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.content__button_type_microphone {
+  min-width: 0;
+  width: 44px;
+  height: 44px;
+  margin: 0;
+  padding: 0;
+  border-radius: 50px;
+  background-color: #CC0929;
+  background-image: url("./imges/Bold-Outline.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.content__nav-bar {
+  margin-top: 16px;
+}
+
+.content__nav-button {
+  min-width: 167px;
+  height: 46px;
+  border-radius: 0 40px 40px 40px;
+  border: none;
+  padding: 0 16px;
+  font-size: 19px;
+  background: linear-gradient(#B60D1E, #EF0F33);
+  background-color: linear-gradient(#FFFFFF, #999999);
+  color: #FFFFFF;
+}
