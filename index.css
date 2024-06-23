@@ -67,6 +67,13 @@
   margin: 24px;
 }
 
+.content__form-box {
+  padding: 24px;
+  background-color: #fff;
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 8px;
+}
+
 .content__input-form {
   display: flex;
   max-width: 954px;
@@ -129,6 +136,7 @@
   border: none;
   padding: 0 16px;
   font-size: 19px;
+  font-weight: 200;
   background: 
     linear-gradient(#B60D1E, #EF0F33),
     linear-gradient(#FFFFFF, #999999);
